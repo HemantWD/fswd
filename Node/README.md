@@ -10,16 +10,16 @@
 # Following are the list of APIs which would be required:
 1.  login API - POST
 2.  signup api - POST
-<!-- 3.  admin signup api - POST     Chinmay , Riteshwar , Hemant-->
+3.  admin signup api - POST        <!-- Chinmay , Riteshwar , Hemant-->
 4.  Home Page: Search API - GET
 5.  Home Page: recently added - GET
 6.  Home Page: most ordered - GET
 7.  Home Page: top chef - GET
 8.  Detail Page - GET
 9.  Admin: your menu - GET
-<!-- 10. Admin: add product - POST   Chinmay , Riteshwar , Hemant  -->
-<!-- 11. Admin: your orders - GET    Chinmay , Riteshwar , Hemant -->
-12. Admin: new order - POST  <!-- Zain -->
+10. Admin: add product - POST     <!--  Chinmay , Riteshwar , Hemant  -->
+11. Admin: your orders - GET      <!--  Chinmay , Riteshwar , Hemant -->
+12. Admin: new order - POST        <!-- Zain -->
 13. Admin: new order action - POST
 14. Address management: one address - POST
 15. Address management: all addresses - POST
