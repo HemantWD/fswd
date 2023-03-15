@@ -9,7 +9,8 @@ const { adminSignupMiddleware } = require("./../middleware/adminSignup");
 const { login, adminLogin } = require("./user/login");
 var bodyParser = require("body-parser");
 const { addProducts } = require("./admin/addProducts");
-const { yourOrders } = require('./admin/yourOrders')
+const { yourOrders } = require('./admin/yourOrders');
+
 
 exports.loadRoutes = (app) => {
     app.use(bodyParser.json());
@@ -19,6 +20,7 @@ exports.loadRoutes = (app) => {
     app.post('/login', login);
 
     //routes related to admin activity
+    app.post('/register', adminSignupMiddleware, adminSignUp);
     app.post('/register', adminSignupMiddleware, adminSignUp);
     app.post('/addproduct', addProducts);
     app.get('/orders', yourOrders);
